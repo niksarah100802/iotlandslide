@@ -8,9 +8,9 @@ st.title("🌧️ Landslide Monitoring Dashboard")
 
 # Define threat level classification
 def classify_threat_level(row):
-    if row['tilt_angle_deg'] > 10 or row['soil_moisture_pct'] > 90 or row['rainfall_mm'] > 40:
+    if row['tilt_angle_deg'] > 10 or row['soil_moisture_pct'] > 50 or row['rainfall_mm'] > 40:
         return 'HIGH'
-    elif row['tilt_angle_deg'] > 5 or row['soil_moisture_pct'] > 70 or row['rainfall_mm'] > 30:
+    elif row['tilt_angle_deg'] > 5 or row['soil_moisture_pct'] > 30 or row['rainfall_mm'] > 30:
         return 'LOW'
     else:
         return 'MILD'
