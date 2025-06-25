@@ -15,7 +15,7 @@ def classify_threat_level(row):
 
 # Load data
 st.set_page_config(page_title="Landslide IoT Monitoring Dashboard", layout="wide")
-st.title("🚨 Landslide Monitoring Dashboard - Genting Highlands Road")
+st.title("🚨 Smart Innovation Landslide Monitoring Dashboard 🚨 ") 
 
 # File uploader
 st.sidebar.header("Upload Your CSV File")
